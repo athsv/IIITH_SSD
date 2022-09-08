@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Student Records</title>
+<script>
+function myFunction() {
+var table = document.getElementById("myTable");
+
+var row = table.insertRow();
+
+var cell1 = row.insertCell(document.getElementById(roll);
+var cell2 = row.insertCell(document.getElementById(stud));
+
+cell1.innerHTML = "NEW CELL1";
+cell2.innerHTML = "NEW CELL2";
+}
+
+
+function myDeleteFunction() {
+  var table = document.getElementById("myTable");
+  document.getElementById("myTable").deleteRow(table.rows.length-1);
+}
+
+</script>
+</head>
+<body>
+<form method="POST">    
+        <label><b>Roll No.     
+        </b>    
+        </label>    
+        <input type="text" name="RollNo" id="roll" placeholder="Roll NO.">    
+        <br><br>    
+        <label><b>Student Name     
+        </b>    
+        </label>    
+        <input type="Student Name" name="pa" id="stud" placeholder="Student Name">    
+        <br><br>    
+     
+        <button onclick="myFunction()">Add New</button>   
+
+     
+        	    
+        <br><br>     
+
+         
+    </form>  
+<table id="myTable">
+  <th>
+    <td>Roll No.</td>
+    <td>Student Name</td>
+  </th>
+</table>
+<br>
+
+
+
+
+
+
+
+
+</body>
+</html>
