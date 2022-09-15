@@ -1,0 +1,74 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Team Form</title>    
+    <link rel="stylesheet"  href="styles.css">    
+    <script src="script.js"></script>
+</head>    
+<body>    
+    <h2>Team Form</h2><br>    
+    <div class="login">    
+    <form id="login" name="form1">    
+        <label><b>Manager Name     
+        </b>    
+        </label>    
+         <input type="text" id="Uname" name="managername" placeholder="Manager_name"required>
+        <br><br>    
+        <label><b>Group Email
+        </label>    
+  	<input type="email" id="Uname" name="Group email" placeholder="Group_email" required>
+        <br><br>    
+         <label><b>Server Username   
+        </b>    
+        </label>    
+          <!--<input type="text" id="Uname" name="Server_Username" required oninput="ValidateUsername(document.form1.ServerUsername)"> -->
+          
+          
+                        
+    
+                <span><b>Server Username</b></span>
+                <input type="text" name="ServerUsername" required oninput="ValidateUsername(document.form1.ServerUsername)">
+                <span><b id="InvalidCheck"></b></span>
+                </br></br></br>
+                
+
+        <br><br>    
+         <label><b>Server Password
+        </b>    
+        </label>    
+        <input type="password" name="Uname" id="Uname" placeholder="Server_Password" required>    
+        <br><br>    
+         <label><b>Confirm Password    
+        </b>    
+        </label>    
+        <input type="password" name="Uname" id="Uname" placeholder="Password" required>    
+        <br><br>    
+         <label><b>Team Lead     
+        </b>    
+        </label>    
+        <select name = "dropdown">
+            <option value = "Leader1" selected>Leader1</option>
+            <option value = "Leader2">Leader2</option>
+         </select>   
+        <br><br>  
+        
+        <label><b>Team Member   
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Team Member" >    
+        <br><br>    
+        
+          
+     	
+         <input type="submit" value="Submit" >   
+
+
+     
+        	    
+        
+
+         
+    </form>     
+</div>    
+</body>    
+</html>   
